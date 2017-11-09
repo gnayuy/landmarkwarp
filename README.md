@@ -26,7 +26,7 @@ make -j8
 ```
 LandmarkWarping3.app/Contents/MacOS/LandmarkWarping3 landmarksFile fixedImage movingImage deformedMovingImage
 ```
-* landmarksFile is saved as a list of landmarks "target_x, target_y, target_z, source_x, source_y, source_z"
+* landmarksFile is saved as a list of landmarks "source_x, source_y, source_z, target_x, target_y, target_z"
 
 
 [ITK]: https://github.com/InsightSoftwareConsortium/ITK.git
